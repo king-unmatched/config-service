@@ -22,6 +22,10 @@ spring:
         acknowledge-mode: manual
       direct:
         acknowledge-mode: manual
+  data:
+    mongodb:
+      database: spring_boot
+      uri: mongodb://127.0.0.1:27017
   cloud:
     bus:
       enabled: true
